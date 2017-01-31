@@ -40,12 +40,64 @@
   <hr>
   <h2>FORMS</h2>
   <form method="POST" action="/">
+    <div>
     <label for="name-field">Name:</label>
     <input id="name-field" name="name-field" type="text" placeholder="Type your name here">
+  </div>
+  <div>
     <label for="email-field">Email:</label>
     <input id="email-field" name="emailField" type="email" placeholder="Type your email here">
-    <input type="submit">
+  </div>
+  <div>
+    <label for="age-field">Age:</label>
+    <input id="age-field" name="ageField" type="number" placeholder="Type your age here">
+  </div>
+  <div>
+    <label for="date-field">Age:</label>
+    <input id="date-field" name="dateField" type="date">
+  </div>
+  <div>
+  <label>
+    <input type="radio" name="soda" value="coke" checked>
+    Coke
+  </label>
+  <label>
+    <input type="radio" name="soda" value="pepsi">
+    Pepsi
+  </label>
+  </div>
+  <div>
+    <label>
+      <input type="checkbox" name="foods" value="pizza">
+      Pizza
+    </label>
+  </div>
+  <div>
+    <label>
+      <input type="checkbox" name="foods" value="salad">
+      Salad
+    </label>
+  </div>
+  <div>
+    <label>
+      <input type="checkbox" name="foods" value="cookies" checked>
+      Cookies
+    </label>
+  </div>
+  <div>
+    <select name="state">
+      <option value="default">--- SELECT ONE ---</option>
+      <option value="WA" selected>Washington</option>
+      <option value="OR">Oregon</option>
+      <option value="Canada">Canada</option>
+      <option value="ID">Idaho</option>
+      <option value="elsewhere">Somewhere Else</option>
+    </select>
+  </div>
+    <input type="submit" value="Click now!">
   </form>
+
+
   <hr>
 
   <table>
