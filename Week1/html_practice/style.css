@@ -1,0 +1,24 @@
+div {
+  border: 2px solid green;
+  background-color: #b21f19;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+}
+#main-paragraph {
+  color: red;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.styled-list {
+  color: green;
+}
+#myDiv p{
+  color: blue;
+}
+h1.purple {
+  padding: 300px;
+}
