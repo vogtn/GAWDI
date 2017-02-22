@@ -1,0 +1,9 @@
+<div>
+  <h2 class="text-center text-success">All about <%= name %></h2>
+  <h3 class="text-center text-primary"> favorite foods:</h3>
+  <ol>
+    <% foods.forEach(function(food){ %>
+      <li><%= food %></li>
+    <% }); %>
+  </ol>
+</div>
