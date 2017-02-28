@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>POST will go under here<h1>
+    <% result.forEach(function(result){ %>
+            <h2><%= result.title %></h2>
+            <p><%= result.content %></p>
+            <%= result.author.name %>
+    <% }) %>
+</body>
+</html>

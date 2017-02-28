@@ -1,0 +1,7 @@
+<h2>All Teams</h2>
+<h3>Number of teams: <%= teams.length %></h3>
+<% teams.forEach(function(t){ %>
+  <h3><%= t.name %></h3>
+  <a href='/teams/<%= t.name %>' class="delete-link">Delete</a>
+  <a href='/teams/<%= t.name %>/edit' class="put-form">edit</a>
+<% }); %>
